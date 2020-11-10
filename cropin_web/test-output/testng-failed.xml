@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [SahlaStoreAutomation]">
+  <listeners>
+    <listener class-name="com.lmg_dubai.sahlastore.listener.MyExtentListeners"/>
+  </listeners>
+  <test name="RegressionTest(failed)">
+    <classes>
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48091_Count_UnitStockCount">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48091_Count_UnitStockCount -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48105_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48105"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48105_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48143_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="ts48143"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48143_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48438_Count_UnitAmountStockCount">
+        <methods>
+          <include name="ts48438"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48438_Count_UnitAmountStockCount -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48116_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48116"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48116_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48106_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48106_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48104_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48104"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48104_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48145_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="ts48145"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48145_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48112_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48112_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48096_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48096_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48090_Count_UnitStockCount">
+        <methods>
+          <include name="finish"/>
+          <include name="createSheet"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48090_Count_UnitStockCount -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48155_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48155"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48155_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48115_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48115"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48115_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48437_Count_UnitAmountStockCount">
+        <methods>
+          <include name="ts48437"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48437_Count_UnitAmountStockCount -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48109_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48109_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48094_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48094_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48095_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48095_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48098_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48098_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48099_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48099_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48158_Inventory_ReceiveWhDelivery">
+        <methods>
+          <include name="ts48158"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48158_Inventory_ReceiveWhDelivery -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48100_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48100_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48097_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48097_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48111_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48111_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48101_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="ts48101"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48101_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48160_Inventory_ReceiveWhDelivery">
+        <methods>
+          <include name="ts48160"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48160_Inventory_ReceiveWhDelivery -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48114_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48114"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48114_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48149_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48149"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48149_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48146_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48146"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48146_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48102_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48102"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48102_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48113_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48113_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48147_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48147"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48147_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48107_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48107_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48157_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48157"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48157_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48103_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48103"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48103_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48202_Count_UnitStockCount">
+        <methods>
+          <include name="ts48202"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48202_Count_UnitStockCount -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48092_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48092_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48110_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48110_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48144_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48144"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48144_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48141_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48141"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48141_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48142_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48142"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48142_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48117_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="ts48117"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48117_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48139_Inventory_ReceiveTransferIn">
+        <methods>
+          <include name="result"/>
+          <include name="ts48139"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48139_Inventory_ReceiveTransferIn -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48130_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48130_Inventory_SendStoreTransfer -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48201_Count_UnitStockCount">
+        <methods>
+          <include name="ts48201"/>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48201_Count_UnitStockCount -->
+      <class name="com.lmg_dubai.sahlastore.inventory.SStore_TS48108_Inventory_SendStoreTransfer">
+        <methods>
+          <include name="result"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.inventory.SStore_TS48108_Inventory_SendStoreTransfer -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [SahlaStoreAutomation] -->

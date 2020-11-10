@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.lmg_dubai.sahlasell.listener.MyExtentListners"/>
+  </listeners>
+  <test thread-count="1" name="RegressionTest(failed)">
+    <classes>
+      <class name="com.lmg_dubai.sahlastore.dashboard.Dashboard_TopFlop_Top_ATC005">
+        <methods>
+          <include name="testAtc005"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.dashboard.Dashboard_TopFlop_Top_ATC005 -->
+      <class name="com.lmg_dubai.sahlastore.dashboard.Dashboard_TopFlop_Top_ATC006">
+        <methods>
+          <include name="testAtc006"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.dashboard.Dashboard_TopFlop_Top_ATC006 -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

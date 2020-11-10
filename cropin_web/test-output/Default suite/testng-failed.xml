@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.lmg_dubai.sahlastore.item.SStore_TS032_ITEM_RequestForItem">
+        <methods>
+          <include name="ts032"/>
+          <include name="createSheet"/>
+          <include name="_LaunchApp"/>
+        </methods>
+      </class> <!-- com.lmg_dubai.sahlastore.item.SStore_TS032_ITEM_RequestForItem -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
